@@ -46,6 +46,7 @@ body{
 #newtask{
     position: relative;
     padding: 30px 20px;
+    margin-left: 30px;
 }
 #newtask input{
     width: 78%;
@@ -63,6 +64,7 @@ body{
 #newtask input:focus{
     outline: none;
     border-color: #0d75ec;
+    
 }
 #newtask button{
     position: relative;
@@ -97,6 +99,7 @@ body{
     cursor: pointer;
     background-color: #c5e1e6;
     height: 50px;
+    margin-left: 30px;
     margin-bottom: 8px;
     padding: 5px 10px;
     display: flex;
