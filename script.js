@@ -7,8 +7,8 @@ document.querySelector('#push').onclick = function(){
           <span class="taskname">
             ${document.querySelector('#taskInput').value}
           </span>
-          <button class="update">Edit</button>
-          <button class="delete">Delete</button>
+          <button class="update">EDIT</button>
+          <button class="delete">DELETE</button>
         </div>
       `;
       

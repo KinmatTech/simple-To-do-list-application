@@ -7,7 +7,7 @@
 }
 body{
     height: 100vh;
-    background: #066acd;
+    background: #b7e3c7;
 }
 .container{
     width: 40%;
@@ -23,7 +23,7 @@ body{
 
 .top{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
     background-color: #19a056;
     color: white;
     width: 100%;
@@ -35,11 +35,11 @@ body{
 }
 .header{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
     background-color: #a0191e;
     color: white;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 2px;
     padding: 5px;
     font-size: 40px;
 }
@@ -48,16 +48,16 @@ body{
     padding: 30px 20px;
 }
 #newtask input{
-    width: 75%;
-    height: 45px;
+    width: 78%;
+    height: 50px;
     padding: 12px;
     color: #111111;
-    font-weight: 500;
+    font-weight: 700;
     position: relative;
     border-radius: 5px;
     font-family: 'Poppins',sans-serif;
-    font-size: 15px;
-    border: 2px solid #d1d3d4;
+    font-size: 20px;
+    border: 3px solid #d1d3d4;
 }
 
 #newtask input:focus{
@@ -93,13 +93,14 @@ body{
     border-radius: 5px;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #939697;
+    border: 1px solid #979394;
     cursor: pointer;
     background-color: #c5e1e6;
     height: 50px;
     margin-bottom: 8px;
     padding: 5px 10px;
     display: flex;
+    
 }
 .task span{
     font-family: 'Poppins',sans-serif;
